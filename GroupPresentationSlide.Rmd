@@ -1,0 +1,308 @@
+---
+title: "**MRS. ALGORITHM'S SECRETS REVEALED IN FACEBOOK WORLD**"
+author: "Linh Vu, Wu Tai-Chi"
+date: "22/12/2020"
+output:
+  
+  beamer_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## **Facebook Algorithm Matters!**
+
+```{r results = 'asis', out.width="80%"}
+download.file(url = "https://media.sproutsocial.com/uploads/2019/05/Social-Index-Data.png",
+          destfile = "image.png",
+          mode = 'wb')
+knitr::include_graphics(path = "image.png")
+```
+
+
+## **Facebook’s New Algorithm Prefers Quality Over Quantity**
+Facebook has been **changing its algorithm** to improve its transparency on how it ranks content on News Feed
+
+```{r results = 'asis', out.width="80%"}
+download.file(url = "https://www.convinceandconvert.com/wp-content/uploads/2014/04/Facebook_Chart.jpg",
+          destfile = "image2.jpg",
+          mode = 'wb')
+knitr::include_graphics(path = "image2.jpg")
+
+```
+
+<p style="text-align:center;">
+Facebook’s Stock vs. Average Organic Page Reach
+</p>
+
+## **WAIT! There’s More About Facebook's Algorithm**
+
+Facebook breaks the News Feed algorithm into four components:
+
+- Inventory
+- Signals
+- Predictions
+- Overall Score
+
+## **What Happens to the News Feed?**
+
+- **Meaningful Interactions**
+
+![](E:\Year1 Sem2\Data Science for Business\image3.png){width=70%}
+
+
+## **What Are Menaingful Interactions for Facebook?**
+
+- Multiple people replying to each other’s comments on a video they watched or an article they read in News Feed
+- A page responding to a person’s comment on their post
+- People commenting on or interacting with a page’s live video
+- People responding to page posts shared through Messenger
+- Any interactions that people have with a page post that has been re-shared by a user
+
+
+## **Video Rankings**
+
+- Why are videos important?
+- How Facebook did to rank the videos?
+- What's the key factors affect videos' ranking?
+
+```{r results = 'asis', out.width="40%"}
+download.file(url = "https://banner2.cleanpng.com/20180315/xyq/kisspng-video-clip-computer-icons-video-on-demand-clip-art-atm-images-5aaac3e5406379.9370004215211407092637.jpg",
+          destfile = "image4.jpg",
+          mode = 'wb')
+knitr::include_graphics(path = "image4.jpg")
+
+```
+
+## **Personalized Experiences**
+
+A survey conducted by Facebook in 2019 asked people:
+
+- Who are your close friends?
+- What posts do you find valuable?
+- How important is content from this Facebook Group to you?
+- How interested are you in Pages you follow?
+
+Based on the responses, Facebook is able to adjust its algorithm to make the news feed even better.
+
+Eg: showing people the pages they following the **longest** and **interacting the most**.
+
+## **Spammy, Clickbait & Engagement Bait**
+
+The **key signals** Facebook uses to determine “clickbait-ness” are **headlines exaggerating** or **withholding information**.
+By demoting these posts, Facebook is able to reduce the contents which are misleading, biased or outright false. 
+
+```{r results = 'asis', out.width="60%"}
+download.file(url = "https://ichef.bbci.co.uk/news/976/cpsprodpb/089D/production/_111750220_gettyimages-1215064495.jpg",
+          destfile = "image5.jpg",
+          mode = 'wb')
+knitr::include_graphics(path = "image5.jpg")
+
+```
+
+## **Example of Clickbait**
+
+```{r results = 'asis', out.width="60%"}
+download.file(url = "https://www.clickz.com/wp-content/uploads/2017/06/13672010_1728862364001132_838959904_n.jpg",
+          destfile = "image6.jpg",
+          mode = 'wb')
+knitr::include_graphics(path = "image6.jpg")
+
+```
+
+## **Example of Engagement Bait**
+
+```{r results = 'asis', out.width="60%"}
+download.file(url = "https://neilpatel.com/wp-content/uploads/2018/04/taco-baiting.jpg",
+          destfile = "image7.jpg",
+          mode = 'wb')
+knitr::include_graphics(path = "image7.jpg")
+
+```
+
+## **Let’s Have a Try!**
+
+- Open your Facebook News Feed and choose a random post/ ad.
+- Click on the three dots in the upper right corner of a particular post/ad in your News Feed
+- What do you see there?
+- Try to customize what you see in the News Feed and customize your settings
+
+
+```{r results = 'asis', out.width="45%"}
+download.file(url = "https://www.demoshelsinki.fi/wp-content/uploads/2016/12/tryout_logo.png",
+          destfile = "image8.png",
+          mode = 'wb')
+knitr::include_graphics(path = "image8.png")
+
+```
+
+
+
+## **Facebook Will Then Show the Following Information:**
+
+- Why a certain post is being displayed in the news feed?
+- Which factors have the greatest impact on the ranking of posts, including: 
+  - How often you interact with posts from people, Pages or Groups
+  - How often you interact with a specific type of post, for example, videos, photos or links
+  - The popularity of the posts shared by the people, Pages, and Groups you follow.
+- Shortcuts to controls, such as See First, Unfollow, News Feed Preferences and Privacy Shortcuts.
+
+## **Example**
+
+```{r results = 'asis', out.width="100%"}
+download.file(url = "https://cdn.searchenginejournal.com/wp-content/uploads/2019/04/why-am-i-seeing-this-1520x800.png",
+          destfile = "image9.png",
+          mode = 'wb')
+knitr::include_graphics(path = "image9.png")
+
+```
+
+## **Tips to Work Better With Mrs. Algorithm**
+
+**Familiarize yourself with how the new algorithm works**
+
+he more signals you can provide to mrs. Algorithm, the hugher chance you can convince her (Mrs. Algorithm) to put your posts on people's news feed.
+
+**Key Signals are:**
+
+- When someone posted a piece of content?
+- What type of content the post is?
+- How much engagement (e.g., likes, comments, shares) the post has gotten?
+- Who’s been engaging with the post?
+
+## **How Exactly Do You Influence Those Signals?**
+
+Here are some of the bigger factors in Facebook’s algorithm that you need familiarize to improve your Facebook traffic:
+
+```{r results = 'asis', out.width="100%"}
+download.file(url = "https://d30zbujsp7ao6j.cloudfront.net/wp-content/uploads/2016/10/Facebook-Newsfeed-Algorithm-Edgerank.jpg",
+          destfile = "image10.jpg",
+          mode = 'wb')
+knitr::include_graphics(path = "image10.jpg")
+
+```
+
+## **Start Making Videos and Doing Live Video Streams**
+
+- Internet users have uploaded more video content online in just the past month than network television generated in 30 years.
+- Online video now accounts for two-thirds of all online traffic, which could climb up to 82% within the next two years.
+- As predicted, live video will account for 13% of all online video by 2021, which could be over 80% of global web traffic and 85% of web traffic in the US.
+- A single minute of video content is worth 1.8 million words
+
+## **And Marketers Have Already Figured It Out!**
+
+- 81% of businesses are already using video as part of their marketing and traffic growth strategies.
+- That’s a pretty substantial increase, as just 63% of businesses were using video in 2017.
+- Of those businesses that aren’t yet making video content, 65% of them have plans to start by the end of the year.
+
+##  **Video Are Prioritized Over Non-Video Content**
+
+An average, when a page post a video, 16.7% of their fans will see it, which is significantly higher than links, photos, and text contents.
+
+Some tips while making video content for Facebook:
+
+- Add captions to your videos
+- Upload HD videos (eg: **1080p/720p**)
+
+```{r results = 'asis', out.width="60%"}
+download.file(url = "https://i.ytimg.com/vi/3GPtEOXOJy0/maxresdefault.jpg",
+          destfile = "image11.jpg",
+          mode = 'wb')
+knitr::include_graphics(path = "image11.jpg")
+
+```
+
+## **Make Sure Your Content Is High in Quality and Offers Real Value**
+
+- What content do they like to see?
+- What kind of content do they find most valuable?
+- What content do they find emotionally or intellectually engaging?
+
+Examples:
+
+- Post contents relevant to your customers
+- Use concise, accurate description or keyword & buzzwords which people can understand easily
+
+## **Actively Engage With Your Audience**
+
+There are two critical Facebook traffic-generation concepts to master: **reach (passive)** and **engagement (active)**.
+
+- Reach:        How many people see the post
+- Engagement:   The interactions in the post
+
+
+How?
+
+- Creating **meaningful interaction** by creating a conversation when someone comments on your posts 
+  - This give them a **feeling of validation**, which cause the high chance that they will be more engaged in the future or even share your content with their networks.
+
+## **Promote the Right Posts at the Right Time**
+
+**Facebook Insight:**
+
+Be smart with your Facebook advertising budget: Don't pay to boost EVERY single post!!
+
+Those analytic data under **Facebook Insights** can help you with, planning advertising budgets and choose the right posts to promote. 
+
+```{r results = 'asis', out.width="80%"}
+download.file(url = "https://blogs.constantcontact.com/wp-content/uploads/2013/09/facebook-insights-post-types-768x426.png",
+          destfile = "image12.png",
+          mode = 'wb')
+knitr::include_graphics(path = "image12.png")
+
+```
+
+## **Post Tab**
+
+In this page you should find two graphs which indicate the average number of fans who saw your post in different time period, it will help you to find those posts which are worthy to be promoted.
+
+```{r results = 'asis', out.width="100%"}
+download.file(url = "https://blogs.constantcontact.com/wp-content/uploads/2013/09/facebook-insights-image-2-600x400.png",
+          destfile = "image13.png",
+          mode = 'wb')
+knitr::include_graphics(path = "image13.png")
+
+```
+
+## **AVOID These Practices for Best Results**
+
+- Don’t post more than two or three times per day
+- Don’t overuse hashtags
+- Don’t forget who your audience is
+
+Remember! 
+
+**What you’re posting**, **Why you’re posting it**, **How you’re posting it**, and **Who you’re posting it for**
+
+## **Key Takeaways**
+
+- Focus on quality over quantity
+- Offer your viewers real value in every post
+- Post **high-quality content** to stand out and gain a **loyal following**
+- **Interact** with your fans to **build up the relationships** and **stimulate more engagement**
+- **Be strategic** to boost only some of your posts
+
+Overall, it’s not difficult to grow your audience on Facebook. You just need to use the right strategies.
+
+## **Q&A Section**
+
+```{r results = 'asis', out.width="100%"}
+download.file(url = "https://miro.medium.com/max/875/1*qUm7JJ74Ak68fklifKRvSA.png",
+          destfile = "image14.png",
+          mode = 'wb')
+knitr::include_graphics(path = "image14.png")
+
+```
+
+## **Thank You for Your Participation!**
+
+```{r results = 'asis', out.width="100%"}
+download.file(url = "https://www.kudos.com/assets/Blog/b5843aa89b/thankyou__FillWzcwMCw0NDBd.jpg",
+          destfile = "image15.jpg",
+          mode = 'wb')
+knitr::include_graphics(path = "image15.jpg")
+
+```
+
