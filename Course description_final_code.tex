@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in,headheight=3ex,headsep=3ex]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+
+\newcommand{\blankline}{\quad\pagebreak[2]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%
+\title{MRS. ALGORITHM'S SECRETS REVEALED IN FACEBOOK WORLD}
+\date{December 2020}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[sc]{mathpazo}
+\linespread{1.05} % Palatino needs more leading (space between lines)
+\usepackage[T1]{fontenc}
+\usepackage[mmddyyyy]{datetime}% http://ctan.org/pkg/datetime
+\usepackage{advdate}% http://ctan.org/pkg/advdate
+\newdateformat{syldate}{\twodigit{\THEMONTH}/\twodigit{\THEDAY}}
+\newsavebox{\MONDAY}\savebox{\MONDAY}{Mon}% Mon
+\newcommand{\week}[1]{%
+%  \cleardate{mydate}% Clear date
+% \newdate{mydate}{\the\day}{\the\month}{\the\year}% Store date
+  \paragraph*{\kern-2ex\quad #1, \syldate{\today} - \AdvanceDate[4]\syldate{\today}:}% Set heading  \quad #1
+%  \setbox1=\hbox{\shortdayofweekname{\getdateday{mydate}}{\getdatemonth{mydate}}{\getdateyear{mydate}}}%
+  \ifdim\wd1=\wd\MONDAY
+    \AdvanceDate[7]
+  \else
+    \AdvanceDate[7]
+  \fi%
+}
+\usepackage{setspace}
+\usepackage{multicol}
+%\usepackage{indentfirst}
+\usepackage{fancyhdr,lastpage}
+\usepackage{url}
+\pagestyle{fancy}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{layout}
+\lhead{}
+\chead{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\rhead{\footnotesize Text in header}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lfoot{}
+\cfoot{\small \thepage}
+\rfoot{}
+
+\usepackage{array, xcolor}
+\usepackage{color,hyperref}
+\definecolor{clemsonorange}{HTML}{EA6A20}
+\hypersetup{colorlinks,breaklinks,linkcolor=clemsonorange,urlcolor=clemsonorange,anchorcolor=clemsonorange,citecolor=black}
+
+\begin{document}
+
+
+
+\maketitle
+% \blankline
+
+\begin{tabular*}{.93\textwidth}{@{\extracolsep{\fill}}lr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{\underline {Course Info}} & \textbf{\underline {Instructors Info}} \\
+Zoom ID: \texttt{961 0584 7426} & Tai Chi Wu ({\tt\bf wu.tai@stud.hs-fresenius.de}) \\
+
+ Time: 15:00-16:00  &  Linh Vu ({\tt\bf vu.linh2@stud.hs-fresenius.de}) \\
+
+&  \\
+\hline
+\end{tabular*}
+
+\vspace{5 mm}
+
+% First Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Overview}
+
+With the advance of the technology and the ease access of the Internet, social media like Facebook has become a popular place to advertise the products and service. Facebook regularly updates its way of working, but  major changes to the News Feed have had impacts on Facebook marketers and users everywhere. This has been called the "Facebook Apocalypse – the end of days for Facebook organic traffic" by social media experts. Within this course, you will be analysing Facebook algorithm updates to find the secrets for success. You will be given proven methods, comprehensive strategies and techniques to make your social media marketing a success and fight back against the Facebook apocalypse.     
+% Second Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Materials}
+
+Lecture notes and Slides are available on Github
+
+
+https://github.com/linhvu00/Data-Science.
+
+
+% Third Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Further readings}
+\begin{itemize}
+\item Explaining the News Feed Algorithm: An Analysis of the "News Feed FYI" Blog
+
+
+https://www.researchgate.net/publication/316612050.
+\item The Silencing Power of Algorithms: How the
+Facebook News Feed Algorithm Manipulates Users’
+Perceptions of Opinion Climates 
+
+https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1783&context=honorstheses.
+\item Wickham, H. & Grolemund, G., 2017, \emph{R for Data Science: Import, Tidy, Transform, Visualize, and Model Data}, O’Reilly Media, Canada.
+\end{itemize}
+
+% Fourth Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Course Structure}
+\subsection*{1. Facebook algorithm matters!}
+\subsection*{2. Facebook's new algorithm prefers quality over quantity}
+\subsection*{3. What happens to the News Feed?}
+\subsection*{4. Tips to work better with Mrs. Algorithm}
+\subsection*{5. Text Mining with R}
+\subsection*{6. Key takeaways}
+
+
+\newcommand{\blankline}
+\newcommand{\blankline}
+
+
+% Fifth Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section*{Learning objectives}
+After this course, you will be able to:
+\begin{itemize}
+\item Know how Facebook algorithm works 
+\item Understand changes of Facebook algorithm and its impact on News Feed
+\item Extract valuable insights from given data from Facebook with RStudio
+\item Improve sales, marketing and advertising strategies on Facebook
+\end{itemize}
+
+\end{document}
+
+
